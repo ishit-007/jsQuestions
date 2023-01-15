@@ -1,13 +1,7 @@
 function isLeap(year){
-    if(year%100==0 && year%400!=0){
-        return false;
-    }
-    return year%4==0;
+    return (year%100==0 && year%400!=0)?false:year%4==0;
 }
-const isLeapArrow=(year)=>{
-    if(year%100==0 && year%400!=0){
-        return false;
-    }
-    return year%4==0;
-}
+
+const isLeapArrow=(year)=>(year%100==0 && year%400!=0)?false:year%4==0;
+
 console.log(isLeapArrow(2000))
