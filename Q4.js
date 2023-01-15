@@ -20,4 +20,7 @@ const longestStringArrow=(stringsArr)=>{
     }
     return string;
 }
-console.log(longestStringArrow(["we", "love", "code", "academy"]))
+module.exports={
+    longestString:longestString,
+    longestStringArrow:longestStringArrow
+}

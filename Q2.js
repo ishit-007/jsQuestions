@@ -1,4 +1,4 @@
-function arrDigitsSame(n){
+function areDigitsSame(n){
     if(n<0){
         n=(n*-1);
     }
@@ -17,7 +17,7 @@ function arrDigitsSame(n){
     }
     return true;
 }
-const arrDigitsSameArrow=(n)=>{
+const areDigitsSameArrow=(n)=>{
     if(n<0){
         n=(n*-1);
     }
@@ -36,4 +36,7 @@ const arrDigitsSameArrow=(n)=>{
     }
     return true;
 }
-console.log(arrDigitsSameArrow(776))
+module.exports={
+    areDigitsSame:areDigitsSame,
+    areDigitsSameArrow:areDigitsSameArrow
+}

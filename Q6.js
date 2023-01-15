@@ -4,4 +4,7 @@ function containsScript(str){
 const containsScriptArrow=(str)=>{
     return str.endsWith("Script");
 }
-console.log(containsScriptArrow("javaScript"))
+module.exports={
+    containsScript:containsScript,
+    containsScriptArrow:containsScriptArrow
+}

@@ -18,4 +18,7 @@ const countVowelsArrow=(str)=>{
     }
     return count;
 }
-console.log(countVowelsArrow("codeacademy"))
+module.exports={
+    countVowels:countVowels,
+    countVowelsArrow:countVowelsArrow
+}

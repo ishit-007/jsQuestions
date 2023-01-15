@@ -12,5 +12,8 @@ const replaceCharArrow=(str)=>{
     }
     return ans;
 }
-console.log(replaceChar("codeacademy"));
-console.log(replaceCharArrow("lazyinterns"));
+module.exports={
+    replaceChar:replaceChar,
+    replaceCharArrow:replaceCharArrow
+}
+

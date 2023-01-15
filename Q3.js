@@ -28,4 +28,7 @@ const changeCaseArrow=(str)=>{
     }
     return ans;
 }
-console.log(changeCaseArrow("aShhQ2zZ"))
+module.exports={
+    changeCase:changeCase,
+    changeCaseArrow:changeCaseArrow
+}
